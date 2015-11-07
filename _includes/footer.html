@@ -1,0 +1,85 @@
+<div id='footer'>
+  <div class='three spacing'></div>
+  <div class='row'>
+    <div class='large-3 medium-3 columns'>
+      <h1>
+        <a href='index.html'>
+          <img alt="" src="{{site.url}}/images/logo.png" />
+        </a>
+      </h1>
+      <p>©2014 {{site.title}}. <br />All rights reserved.</p>
+      <div class='spacing'></div>
+      {% include twitter-follow.html %}
+      <div class='spacing'></div>
+    </div>
+    <div class='large-3 medium-3 columns'>
+      <div class='spacing'></div>
+      <div class='links'>
+        <h4>Alcune pagine</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="portfolio.html">I nostri prodotti</a></li>
+          <li><a href="blog.html">Segui il nostro blog</a></li>
+          <li><a href="contact.html">Contattaci</a></li>
+          <li><a href="services.html">La nostra qualità</a></li>
+        </ul>
+      </div>
+      <div class='spacing'></div>
+    </div>
+    <div class='large-3 medium-3 columns'>
+      <div class='spacing'></div>
+      <div class='links'>
+        <h4>Ultime news</h4>
+        <ul>
+          {% for post in site.posts %}
+            <li><a href="{{post.url}}">{{post.title}}</a></li>
+          {% endfor %}
+        </ul>
+      </div>
+      <div class='spacing'></div>
+    </div>
+    <div class='large-3 medium-3 columns'>
+      <div class='spacing'></div>
+      <h4>Contattaci</h4>
+      <ul>
+        <li><i class="fa fa-phone-square"></i> +39 (080) 8886892 | <a href="mailto:agricolagm.palagiano@gmail.com"><i class="fa fa-envelope"></i></a></li>
+        <li>Contrada Lenne, 74019, Palagiano (Ta)</li>
+        <li>Puglia, Italy</li>
+      </ul>
+      <div class='spacing'></div>
+      <ul class='socials'>
+        <li>
+          <a href='https://www.facebook.com/sanfilippoclementine' target="_blank">
+            <i class='fa fa-facebook'></i>
+          </a>
+        </li>
+        <li>
+          <a href='https://plus.google.com/u/0/b/117324459663965290041/117324459663965290041/about?sig=ALjLGbNdPk4citC_to_C4o2iK_OXBBDlVA' target="_blank">
+            <i class='fa fa-google-plus'></i>
+          </a>
+        </li>
+        <li>
+          <a href='https://it.foursquare.com/agrumipuglia/home' target="_blank">
+            <i class='fa fa-foursquare'></i>
+          </a>
+        </li>
+        <li>
+          <a href='https://twitter.com/agrumipuglia' target="_blank">
+            <i class='fa fa-twitter'></i>
+          </a>
+        </li>
+      </ul>
+      <div class='spacing'></div>
+    </div>
+  </div>
+  <div class='two spacing'></div>
+</div>
+
+<script src="{{ "/javascripts/lib/google-analytics.js" | prepend: site.baseurl }}" type="text/javascript"></script>
+<script src="{{ "/javascripts/jquery.countTo.js" | prepend: site.baseurl }}" type="text/javascript"></script>
+<script src="{{ "/javascripts/jquery.appear.js" | prepend: site.baseurl }}" type="text/javascript"></script>
+<script src="{{ "/javascripts/jquery.validate.js" | prepend: site.baseurl }}" type="text/javascript"></script>
+<script src="{{ "/javascripts/jquery.sequence-min.js" | prepend: site.baseurl }}" type="text/javascript"></script>
+<script src="{{ "/javascripts/jquery.easing.1.3.js" | prepend: site.baseurl }}" type="text/javascript"></script>
+<script src="{{ "/javascripts/app.js" | prepend: site.baseurl }}" type="text/javascript"></script>
+<script src="{{ "/javascripts/lib/instagram.js" | prepend: site.baseurl }}" type="text/javascript"></script>

@@ -1,0 +1,51 @@
+---
+layout: blog
+section_id: blog
+---
+
+<div class='row'>
+  <div class='large-12 columns'>
+    <div class='mod modBlogPost big'>
+      <div class='images'>
+        {% for image in page.images %}
+          <div class='image'><img alt="" src="{{site.url}}/{{image}}" /></div>
+        {% endfor %}
+      </div>
+      <div class='content'>
+        <p class='info'>
+          <span>{{page.date | date: "%B %d, %Y" }}</span>
+          /
+          <span>
+            by {{page.author}}
+          </span>
+          <!--
+          /
+          <span>
+            <a href="#">4 comments</a>
+          </span>
+          -->
+        </p>
+        <h3><a href="{{page.url}}">{{page.title}}</a></h3>
+        {% include social-share.html %}
+        {{ content }}
+      </div>
+    </div>
+    <div class='two spacing'></div>
+    <a id='comments'></a>
+    <div class='comments-wrapper'>
+
+      <div id="fb-root"></div>
+      <script>(function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = "//connect.facebook.net/it_IT/sdk.js#xfbml=1&version=v2.4&appId=363792333687613";
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));</script>
+
+      <div class="fb-comments" data-href="{{ post.url }}" data-numposts="5" data-width="100%"></div>
+
+    </div>
+    <div class='four spacing'></div>
+  </div>
+</div>

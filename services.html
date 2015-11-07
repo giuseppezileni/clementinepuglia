@@ -1,0 +1,97 @@
+---
+layout: default
+title: La nostra qualità
+section_id: services
+services_left:
+  - icon: trophy
+    title: Web Design
+    desc: Acusamus laborum totam omnis inventore et error aut et eos aut. fuga mollitia vitae id enim omnis perspiciatis. modi maxime eos.
+  - icon: cogs
+    title: Web Development
+    desc: Acusamus laborum totam omnis inventore et error aut et eos aut. fuga mollitia vitae id enim omnis perspiciatis. modi maxime eos.
+  - icon: pagelines
+    title: Branding
+    desc: Acusamus laborum totam omnis inventore et error aut et eos aut. fuga mollitia vitae id enim omnis perspiciatis. modi maxime eos.
+  - icon: lock
+    title: Security
+    desc: Acusamus laborum totam omnis inventore et error aut et eos aut. fuga mollitia vitae id enim omnis perspiciatis. modi maxime eos.
+services_right:
+  - icon: trophy
+    title: Qualità
+    desc: Prodotto tipico di Palagiano, coltivato in un clima ideale per renderli unici al mondo
+  - icon: globe
+    title: Tracciabilità
+    desc: Sistema di tracciabilità certificato dalla Regione Puglia.
+  - icon: star
+    title: Tradizione
+    desc: Raccolta e coltivazione tradizionali, per creare un prodotto di altissima qualità
+  - icon: graduation-cap
+    title: Esperienza
+    desc: Territorio ricco di cultura agrumicola da decenni, nel rispetto dell'ambiente.
+---
+
+<div class='full parallax' style='background-image: url(images/bg/clementine1_header.jpg); color: #fff;'>
+  <div class='row'>
+    <div class='large-12 columns'>
+      {% include section-header.html title="La nostra qualità" tagline="Certificata dalla Regione Puglia" color="#fff" class="big" %}
+    </div>
+  </div>
+  <div class='four spacing'></div>
+</div>
+
+<div class='full'>
+  <div class='row'>
+    <div class='medium-6 columns'>
+
+      <img class="fadeinleft" alt="" src="images/logo-puglia_small.png" />
+      <div class='three spacing'></div>
+
+      <!--
+      {% for service in page.services_left %}
+        <div class='fadein mod modIconText' data-delay='{{ 300 | times:forloop.index0 }}'>
+          <div class='icon-text-simple'>
+            <i class='fa fa-{{service.icon}}'></i>
+            <h3>{{service.title}}</h3>
+            <p>{{service.desc}}</p>
+          </div>
+          <div class='two spacing'></div>
+        </div>
+      {% endfor %}
+      -->
+    </div>
+    <div class='medium-6 columns'>
+      {% for service in page.services_right %}
+        <div class='fadein mod modIconText' data-delay='{{ 300 | times:forloop.index0 }}'>
+          <div class='icon-text-simple'>
+            <i class='fa fa-{{service.icon}}'></i>
+            <h3>{{service.title}}</h3>
+            <p>{{service.desc}}</p>
+          </div>
+          <div class='two spacing'></div>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+
+  <div class='spacing'></div>
+
+  <div class="row">
+    <div class="large-12 columns">
+    <h2>Prodotti di Qualità Puglia</h2>
+    <p>
+      Il marchio <a href="http://www.agricolturaequalita.it"><strong>Prodotti di Qualità Puglia</strong></a> è un marchio di qualità collettivo comunitario con indicazione di origine. Il marchio è garantito dalla Regione Puglia (ai sensi del Reg. (CE) n. 207/09, depositato l'11/06/2012 all'Ufficio per l'Armonizzazione nel Mercato Interno – UAMI la domanda di registrazione del marchio <em>Prodotti di Qualità Puglia</em>).
+
+      Il marchio <em>Prodotti di Qualità Puglia</em> ha l'obiettivo di valorizzare i prodotti agricoli e alimentari con un elevato standard qualitativo controllato, di far conoscere ai consumatori, queste caratteristiche qualitative. <br />Il marchio trasmette il messaggio principale d’indicazione di qualità del prodotto e quello secondario d’indicazione d’origine del medesimo.<br />
+      Il marchio assicura una tracciabilità completa dei prodotti.<br />
+      Il marchio risponde alle prescrizioni di cui agli orientamenti comunitari per gli aiuti di Stato nel settore agricolo e forestale 2007-2013 (2006/C 319/01) ed agli orientamenti comunitari per gli aiuti di Stato a favore della pubblicità dei prodotti di cui all’Allegato I del Trattato sul Funzionamento dell’Unione Europea nonché di determinati prodotti non compresi in detto allegato.
+    </p>
+    <div class='two spacing'></div>
+    <p class='centered-text'>
+        <a class='button' href='http://www.agricolturaequalita.it' target="_blank">Maggiori Informazioni</a>
+      </p>
+    </div>
+  </div>
+  
+  <div class='four spacing'></div>
+
+</div>

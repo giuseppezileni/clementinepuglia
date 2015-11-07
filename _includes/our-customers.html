@@ -1,0 +1,24 @@
+<div class='full parallax' style='background-image: url(images/bg/packaging1_black.jpg); color: #fff;'>
+  <div class='row'>
+    <div class='large-12 columns'>
+      {% include section-header.html title="I nostri clienti" color="#fff" %}
+      <div class='spacing'></div>
+      <p>
+      La qualità dei nostri prodotti è riconosciuto ed apprezzata nei principali mercati nazionali, come <a href="http://www.sogemispa.it" target="_blank">Milano</a>, <a href="http://www.caab.it" target="_blank">Bologna</a>, <a href="http://www.mercafir.it" target="_blank">Firenze</a>, <a href="http://www.maap.it" target="_blank">Mestre</a>, <a href="http://www.trevisomercati.it" target="_blank">Treviso</a>, <a href="http://www.maap.it" target="_blank">Padova</a>.
+      </p>
+      <div class='spacing'></div>
+    </div>
+  </div>
+  <div class='row'>
+    <div class='large-12 columns'>
+      <div class='mod modClients' data-slides_to_show='4'>
+        <div class='clients'>
+          {% for client in site.data.clients %}
+            <div><img alt="" src="{{client.image}}" /></div>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class='two spacing'></div>
+</div>

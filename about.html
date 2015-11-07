@@ -1,0 +1,154 @@
+---
+layout: default
+title: Chi Siamo
+section_id: about
+skills:
+  - title: Clementine
+    percentage: 70
+  - title: Uva da tavola
+    percentage: 30
+  - title: Site Management
+    percentage: 70
+  - title: Branding
+    percentage: 61
+testimonials:
+  - quote: Reprehenderit eos et non et ut eum reprehenderit quis sequi quia vel repellendus id. Velit quit blanditiis dolor quam error eos dolores sequi eaque rerum est. Velit quit blanditiis dolor quam error eos dolores sequi eaque rerum est.
+    author: David White, Designer at Huglab
+  - quote: Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetuer sit amet magna adipiscing.
+    author: David White, Designer at Huglab
+  - quote: Reprehenderit eos et non et ut eum reprehenderit quis sequi quia vel repellendus id. Velit quit blanditiis dolor quam error eos dolores sequi eaque rerum est.
+    author: David White, Designer at Huglab
+---
+
+<div class='full parallax' style='background-image: url(images/bg/agrumeto2_header.jpg); color: #fff;'>
+  <div class='row'>
+    <div class='twelve columns'>
+      {% include section-header.html title="Clementine San Filippo" color="#fff" tagline="Aziende agricole di Palagiano" class="big" %}
+    </div>
+  </div>
+  <div class='four spacing'></div>
+</div>
+
+<div class='full'>
+  <div class='row'>
+    <div class='medium-6 columns'>
+      <h3>La nostra terra</h3>
+      <p>Coltiviamo da generazioni le migliori clementine: apprezzata in tutta Europa per il sapore ineguagliabile, il fresco profumo, le proprietà organolettiche e nutritive. Una lunga esperienza unita ad una moderna gestione delle risorse umane sono i migliori presupposti per avere un prodotto di alta qualità. Seguiamo i nostri agrumeti fin dalla nascita.
+      Abbiamo differenziato le nostre coltivazioni in ragione delle diverse caratteristiche dei terreni e del clima. Ci prendiamo cura delle nostre clementine giorno per giorno e la natura ci premia con un prodotto di qualità eccellente che raccogliamo con delicatezza e confezioniamo direttamente sotto la pianta, perché non subisca molte manipolazioni e venga, freschissimo, inviato sulle tavole d’Europa ancora fragrante e profumato.</p>
+      <p>
+      {% include foursquare-follow.html %}
+      </p>
+      
+      <h3>Agricola G.M. Soc. Semplice di Zileni G. e Ostuni E.</h3>
+      <p>
+        <a href="mailto:agricolagm.palagiano@gmail.com"><i class="fa fa-envelope"></i></a>   <a href="mailto:agricolagm@pec.it"><i class="fa fa-envelope-o"></i> PEC</a>   <a href="https://plus.google.com/b/118224034284524294890/118224034284524294890/posts" target="_blank"><i class="fa fa-google-plus"></i></a>   <a href="https://www.google.com/maps/dir//Agricola+G.M./@40.5467605,16.9374072,12z/data=!3m1!4b1!4m8!4m7!1m0!1m5!1m1!1s0x13470e9ec23e27e1:0x30501dcc222ffcc8!2m2!1d17.011224!2d40.546784?hl=it" target="_blank"><i class="fa fa-map-marker"></i></a> <br />
+        <strong>Sede Legale</strong>: Via Aldo Moro, 13 - 70023 Gioia del Colle (BA)<br />
+        <strong>Stabilimento</strong>: Contrada Lenne, snc - 74019 Palagiano (BA)<br />
+        P.IVA: <br />
+      </p>
+      <h3>Società Agricola Arcobaleno di Zileni G. e Ostuni E.</h3>
+      <p>
+        <a href="mailto:agricolagm.palagiano@gmail.com"><i class="fa fa-envelope"></i></a>   <a href="mailto:agricolarcobaleno@pec.it"><i class="fa fa-envelope-o"></i> PEC</a>   <a href="https://plus.google.com/b/102496671080384775085/102496671080384775085/posts" target="_blank"><i class="fa fa-google-plus"></i></a>   <a href="https://www.google.com/maps/dir//Arcobaleno/data=!4m5!4m4!1m0!1m2!1m1!1s0x13470c1fd049b533:0xaafac453f21d031?gl=IT&hl=it" target="_blank"><i class="fa fa-map-marker"></i></a> <br />
+        <strong>Sede Legale</strong>: Via Cappellini, 45 - 70023 Gioia del Colle (BA)<br />
+        <strong>Stabilimento</strong>: Contrada Lenne, snc - 74019 Palagiano (BA)<br />
+        P.IVA: <br />
+      </p>
+    </div>
+
+    <div class='medium-6 columns'>
+      <img class="fadeinleft" alt="" src="images/logo-puglia_small.png" />
+      <div class='three spacing'></div>
+    </div>
+
+    <!--
+    <div class='medium-6 columns'>
+      <h3>Prodotti di Qualità Puglia</h3>
+      <div class='mod modBarGraph'>
+        <ul class='bars'>
+          {% for skill in page.skills %}
+            <li>
+              <h4 style=''>
+                {{skill.title}}
+                <strong>{{skill.percentage}}%</strong>
+              </h4>
+              <p class='highlighted' data-percent='{{skill.percentage}}'></p>
+            </li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+    -->
+  </div>
+</div>
+
+<!--
+<div class='full'>
+  <div class='row'>
+    {% for member in site.data.members %}
+      <div class='small-6 medium-3 large-3 columns'>
+        <div class='mod modTeamMember'>
+          <div class='member'>
+            <img class="avatar" alt="" src="{{ member.avatar }}" />
+            <div class='overlay'>
+              <div class='intro'>
+                <h3>{{member.name}}</h3>
+                <p>{{member.position}}</p>
+                <ul class='socials'>
+                  {% for social in member.socials %}
+                    <li>
+                      <a href='{{social.link}}'>
+                        <i class='fa fa-{{social.icon}}'></i>
+                      </a>
+                    </li>
+                  {% endfor %}
+                </ul>
+              </div>
+            </div>
+          </div>
+          <p class='centered-text'>{{member.desc}}</p>
+          <div class='two spacing'></div>
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+</div>
+-->
+<!--
+<div class='full parallax' style='background: #f5f5f5'>
+  <div class='row'>
+    <div class='large-12 columns'>
+      <p class='centered-text'>
+        <i class='fa fa-quote-left' style='color: #F9CE06; font-size: 36px;'></i>
+      </p>
+    </div>
+  </div>
+  <div class='row'>
+    <div class='large-12 columns'>
+      {% include section-header.html title="What our clients say" %}
+      <div class='spacing'></div>
+    </div>
+  </div>
+  <div class='row'>
+    <div class='large-12 columns'>
+      <div class='mod modTestimonials'>
+        <div class='row'>
+          <div class='small-12 columns'>
+            <div class='items centered-text'>
+              {% for testimonial in page.testimonials %}
+                <div class='item'>
+                  <p class='quote'>"{{testimonial.quote}}"</p>
+                  <p class='author'>- {{testimonial.author}}</p>
+                  <div class='two spacing'></div>
+                </div>
+              {% endfor %}
+            </div>
+          </div>
+          <div class='spacing'></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+-->
+
+{% include our-customers.html %}

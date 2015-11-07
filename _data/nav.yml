@@ -1,0 +1,18 @@
+- name: Home
+  path: index.html
+  section_id: home
+- name: Chi siamo
+  path: about.html
+  section_id: about
+- name: La nostra qualità
+  path: services.html
+  section_id: services
+- name: I nostri prodotti
+  path: portfolio.html
+  section_id: portfolio
+- name: Contattaci
+  path: contact.html
+  section_id: contact
+- name: Blog
+  path: blog/
+  section_id: blog
