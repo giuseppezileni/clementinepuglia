@@ -1,16 +1,15 @@
 # Site settings
 title: Clementine di Puglia
-email: agricolagm.palagiano@gmail.com
+email: arcobaleno.palagiano@gmail.com
 description: > # Le clementine "San Filippo" di Puglia possiedono componenti nutrizionali ben equilibrati, di pronta assimilazione e di facile digeribilità. Contengono vitamina C, che è antiossidante e contribuisce al potenziamento del sistema immunitario. Hanno proprietà dietetiche, cosmetiche e curative.
 baseurl: "" # the subpath of your site, e.g. /blog/
-# url: "http://yourdomain.com" # the base hostname & protocol for your site
-twitter_username: gzileni
+url: "http://www.clementine.puglia.it" # the base hostname & protocol for your site
+twitter_username: agrumipuglia
 github_username:  giuseppezileni
 gems: [jekyll-paginate]
 
 # Build settings
 markdown: kramdown
-
 
 paginate: 3
 paginate_path: "blog/page:num"

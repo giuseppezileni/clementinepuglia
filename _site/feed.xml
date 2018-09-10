@@ -3,11 +3,11 @@
   <channel>
     <title>Clementine di Puglia</title>
     <description></description>
-    <link>/</link>
-    <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 06 Feb 2016 23:16:14 +0100</pubDate>
-    <lastBuildDate>Sat, 06 Feb 2016 23:16:14 +0100</lastBuildDate>
-    <generator>Jekyll v2.5.3</generator>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Mon, 10 Sep 2018 16:41:06 +0200</pubDate>
+    <lastBuildDate>Mon, 10 Sep 2018 16:41:06 +0200</lastBuildDate>
+    <generator>Jekyll v3.8.3</generator>
     
       <item>
         <title>Clementine San Filippo in TV</title>
@@ -16,8 +16,8 @@
 &lt;/div&gt;
 </description>
         <pubDate>Sat, 29 Nov 2014 11:00:00 +0100</pubDate>
-        <link>/news/social/2014/11/29/clementine-vissani.html</link>
-        <guid isPermaLink="true">/news/social/2014/11/29/clementine-vissani.html</guid>
+        <link>http://localhost:4000/news/social/2014/11/29/clementine-vissani.html</link>
+        <guid isPermaLink="true">http://localhost:4000/news/social/2014/11/29/clementine-vissani.html</guid>
         
         
         <category>news</category>
@@ -38,8 +38,8 @@
 
 </description>
         <pubDate>Tue, 28 Jan 2014 09:19:12 +0100</pubDate>
-        <link>/news/social/2014/01/28/clementine-social.html</link>
-        <guid isPermaLink="true">/news/social/2014/01/28/clementine-social.html</guid>
+        <link>http://localhost:4000/news/social/2014/01/28/clementine-social.html</link>
+        <guid isPermaLink="true">http://localhost:4000/news/social/2014/01/28/clementine-social.html</guid>
         
         
         <category>news</category>
