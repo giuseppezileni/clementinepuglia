@@ -12,8 +12,10 @@ slides:
     buttons:
       klass: bottom-to-top
       items:
-        - text: Seguici su <i class="fa fa-foursquare"></i>
-          link_to: https://it.foursquare.com/agrumipuglia
+        - text: Seguici su <i class="fa fa-instagram"></i>
+          link_to: https://www.instagram.com/clementine.puglia.it/
+        - text: <i class="fa fa-facebook-square"></i>
+          link_to: https://www.facebook.com/clementine.puglia.it
   - bg: images/bg/clementine3.jpg
     klass: centered-text
     small_title:
@@ -26,20 +28,24 @@ slides:
       klass: bottom-to-top
       items:
         - klass: boxed
-          text: Seguici su <i class="fa fa-foursquare"></i>
-          link_to: https://it.foursquare.com/agrumipuglia
+          text: Seguici su <i class="fa fa-instagram"></i>
+          link_to: https://www.instagram.com/clementine.puglia.it/
+        - text: <i class="fa fa-facebook-square"></i>
+          link_to: https://www.facebook.com/clementine.puglia.it
   - bg: images/bg/agrumeto2.jpg
     small_title:
       klass: bottom-to-top
-      text: clima caldo e soleggiato insieme all'esperienza agricola 
+      text: clima caldo e soleggiato insieme all'esperienza agricola
     title:
       klass: bottom-to-top
       text: Tradizione e Cultura ...
     buttons:
       klass: bottom-to-top
       items:
-        - text: Seguici su <i class="fa fa-foursquare"></i>
-          link_to: https://it.foursquare.com/agrumipuglia
+        - text: Seguici su <i class="fa fa-instagram"></i>
+          link_to: https://www.instagram.com/clementine.puglia.it/
+        - text: <i class="fa fa-facebook-square"></i>
+          link_to: https://www.facebook.com/clementine.puglia.it
 works:
   - image: images/@stock/work-1.jpg
     title: Beautiful Girl
@@ -193,6 +199,7 @@ milestones:
 
 <div class="spacing"></div>
 
+<!--
 <div class="full" style="background: #f5f5f5;">
   <div class="row">
     <div class="large-12 columns">
@@ -207,7 +214,6 @@ milestones:
 
   <div class="mod modGallery">
     <ul class="gallery small-block-grid-2 medium-block-grid-3 large-block-grid-4" id="instagram_work">
-      <!--
       {% for work in page.works %}
         <li class="{{ work.klass }}">
           <a href='{{ work.link_to }}'>
@@ -221,18 +227,20 @@ milestones:
           </a>
         </li>
       {% endfor %}
-      -->
-      
     </ul>
   </div>
 </div>
-
+-->
 
 <div class='full'>
   <div class='row'>
     <div class='large-12 columns'>
       {% include section-header.html title="La nostra qualità" %}
       <div class='spacing'></div>
+      <p>
+        Le clementine di puglia <em>San Filippo</em> possiedono componenti nutrizionali ben equilibrati, di pronta assimilazione e di facile digeribilità. Contengono <strong>vitamina C</strong>, che è antiossidante e contribuisce al potenziamento del sistema immunitario. Hanno proprietà dietetiche, cosmetiche e curative. Le caratteristiche dei nostri agrumi sono essenzialmente dovute all’ambiente di coltivazione, nel quale fattori naturali (clima, terreno ed acqua) ed umani (sapienza, tradizione e cultura), contribuiscono a renderli unici al mondo. Il clima caldo, soleggiato e poco umido del territorio che si affaccia tra i comuni di <strong>Palagiano, Palagianello, Castellaneta e Massafra</strong>, a 50 Km da Taranto, influenza benevolmente la crescita e la maturazione del frutto, conferendogli caratteristiche qualitative eccellenti. La raccolta dei frutti deve essere effettuata a mano, con l’ausilio delle forbici, evitando che i frutti vengano deteriorati. I frutti devono essere raccolti asciutti, senza foglia o con qualche foglia.
+      </p>
+
       <p>
         Produciamo cibi sani e sicuri, conservando e proteggendo le risorse naturali. La nostra produzione è a basso impatto ambientale, usando in modo coordinato e razionale tutti i fattori allo scopo di ridurre al minimo il ricorso a mezzi tecnici che hanno un impatto sull’ambiente o sulla salute dei consumatori. La fertilizzazione usata sfrutta, nei limiti del possibile, il ciclo della sostanza organica, ricorrendo a tecniche che limitano la mineralizzazione. La difesa dei nostri prodotti è basata esclusivamente sui disciplinari di produzione integrata. Le nostre tecniche di difesa sfruttano, nei limiti del possibile, la lotta biologica, al fine di intervenire solo al superamento della soglia di intervento, secondo i criteri della lotta guidata e, infine, si ricorre alle biotecnologie e ai mezzi biotecnici. I fitofarmaci usati hanno i principi attivi a basso spettro d’azione o ad alta selettività, a bassa persistenza e a basso rischio di induzione di fenomeni di resistenza, a prescindere dalla loro natura.
       </p>
@@ -260,7 +268,7 @@ milestones:
   <div class='spacing'></div>
 </div>
 
-
+<!--
 <div class='full parallax' style='background-image: url(images/bg/clementine5.jpg); color: #fff;'>
   <div class='row'>
     <div class='large-12 columns'>
@@ -286,6 +294,7 @@ milestones:
   </div>
   <div class='two spacing'></div>
 </div>
+-->
 
 <!--
 <div class='full'>
@@ -329,6 +338,7 @@ milestones:
 </div>
 -->
 
+<!--
 <div class='full' style='background: #f5f5f5'>
   <div class='row'>
     <div class='large-12 columns'>
@@ -359,7 +369,6 @@ milestones:
             <p class='date'>{{post.date | date: "%B %d, %Y" }}</p>
             <h4><a href="{{post.url}}">{{post.title}}</a></h4>
             <p>{{post.excerpt}}</p>
-            <!--
               <div class="tags">
                 {% for cat in post.categories %}
                   <a href="#">{{cat | capitalize}}</a>
@@ -368,7 +377,6 @@ milestones:
                   {% endunless %}
                 {% endfor %}
               </div>
-            -->
           </div>
         </div>
       </div>
@@ -376,7 +384,6 @@ milestones:
     {% endfor %}
 
   </div>
-
 
   <div class='two spacing'></div>
   <div class='row'>
@@ -389,10 +396,9 @@ milestones:
   <div class='two spacing'></div>
 
 </div>
-
+-->
 
 {% include our-customers.html %}
-
 
 <div class='full no-padding' style='background: #fff'>
   <div class='two spacing'></div>
@@ -408,14 +414,3 @@ milestones:
   </div>
   <div class='spacing'></div>
 </div>
-
-<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<!-- La Gioia Digitale -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-8570227514171301"
-     data-ad-slot="9637123673"
-     data-ad-format="auto"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
